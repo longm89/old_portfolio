@@ -146,6 +146,7 @@ button {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-evenly;
+        align-items: center;
         margin: 1%;
     }
     #bioText {
