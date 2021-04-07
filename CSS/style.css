@@ -22,23 +22,31 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
-
+#brandName {
+    width: 15vw;
+    margin-left: 0;
+}
 
 #navContacts {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
+    width: 40vw;
 }
 
 #navLinks {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-between;
+    width: 30vw;
 }
+
 nav a {
     text-decoration: none;
     padding: 1rem;
@@ -60,11 +68,11 @@ nav a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin: 1%;
+    margin: 3vh 0;
 }
 .projectImage {
     max-width: 40vw;
-    border: 1px solid #bd701e;
+    border: 1px solid #3b2a18;
 }
 .projectDetail {
     max-width: 30vw;
@@ -85,28 +93,42 @@ button {
 
 /* **************************************************** */
 #about {
-  margin: 5%;
+  margin: 5vh 0;
 }
-#shortBio {
+#bio {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin: 1%;
-    align-items: center;
+    align-items: flex-start;
 }
-#biography {
+#bioText {
     text-align:justify;
-    max-width: 40vw;
-    border: 0px solid green;
+    max-width: 45vw;
+    line-height: 1.5em;
 }
 #avatarImage {
-    max-width: 30vw;
-    max-height: 30vh;
+    max-width: 25vw;
     border-radius: 5%;
-    border: 0px solid red;
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #navContacts {
+        width: 80vw;
+    }
+    
+    #navLinks {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 50vw;
+    }
     .projects {
         display: flex;
         flex-flow: column nowrap;
@@ -115,19 +137,23 @@ button {
     }
     .projectImage {
         max-width: 100vw;
-        border: 1px solid #bd701e;
+
     }
     .projectDetail {
         max-width: 100vw;
     }
-    #shortBio {
+    #bio {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-evenly;
         margin: 1%;
     }
-    #biography {
+    #bioText {
         text-align:justify;
-        max-width: 100vw;
+        max-width: 80vw;
+    }
+    #avatarImage {
+        max-width: 40vw;
+        border-radius: 5%;
     }
 }
