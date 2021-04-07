@@ -96,11 +96,11 @@ button {
 }
 #bioText {
     text-align:justify;
-    max-width: 45vw;
+    max-width: 55vw;
     line-height: 1.5em;
 }
 #avatarImage {
-    max-width: 25vw;
+    max-width: 15vw;
     border-radius: 5%;
 }
 
