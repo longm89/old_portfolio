@@ -76,6 +76,7 @@ nav a {
     max-width: 40vw;
     max-height: 100%;
     border: 1px solid #3b2a18;
+    align-self: flex-start;
 }
 .projectDetail {
     max-width: 30vw;
@@ -147,7 +148,7 @@ button {
     .projectImage {
         max-width: 100vw;
         max-height: 100%;
-        align-self: flex-start;
+        
     }
     .projectDetail {
         max-width: 100vw;
