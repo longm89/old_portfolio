@@ -68,6 +68,12 @@ nav a {
 }
 .projectDetail {
     max-width: 30vw;
+    text-align: justify;
+}
+.projectButtons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 button {
     margin: 1em;
