@@ -18,9 +18,12 @@ nav {
 }
 
 #brandName {
-    max-width: 20vw;
+    max-width: 25vw;
     margin-left: 0;
-    text-align: center;
+    margin-right: 1vw;
+    text-align: left;
+    line-height: 1.5em;
+
 }
 
 #navContacts {
@@ -30,6 +33,7 @@ nav {
     align-items: center;
     padding: 0;
     width: 40vw;
+
 }
 
 #navLinks {
@@ -40,15 +44,20 @@ nav {
     width: 30vw;
 }
 
+#navLinks a {
+    line-height: 1.5em;
+}
+
 nav a {
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     color: #3b2a18;
     font-weight: bold;
+
 }
 
 #navContacts .fab {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 /* **************************************************** */
 
