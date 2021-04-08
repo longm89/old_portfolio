@@ -43,7 +43,10 @@ nav {
     justify-content: flex-end;
     width: 30vw;
 }
-
+.languageImages {
+    max-width: 2vw;
+    margin-left: 5px;
+}
 #navLinks a {
     line-height: 1.5em;
 }
