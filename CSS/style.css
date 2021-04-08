@@ -85,6 +85,11 @@ nav a {
 .projectDetail {
     max-width: 30vw;
     text-align: justify;
+
+    margin-top: 0;
+}
+.projectDetail>p {
+    margin-top: 0;
 }
 .projectButtons {
     display: flex;
@@ -104,15 +109,19 @@ button {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: flex-start;
+
 }
 #bioText {
     text-align:justify;
     max-width: 55vw;
     line-height: 1.5em;
+
+    margin-top: 0;
 }
 #avatarImage {
     max-width: 15vw;
     border-radius: 5%;
+
 }
 
 @media only screen and (max-width: 768px) {
